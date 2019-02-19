@@ -1,0 +1,32 @@
+[TOC]
+# 第一章 基础篇
+## 1.1 简介和基本介绍
+
+1. 引用官方的话介绍Julia语言的使命
+    1. 我们想要一种拥有自由许可的开源语言，同时拥有 C 的速度和 Ruby 的灵活。我们想要一种同像性语言，有像 Lisp 这样真正的宏，也有像 Matlab 这样的浅显熟悉的数学符号。我们想要一门像 Python 一样可用于通用编程，像 R 一样易于统计，像 Perl 一样自然地用于字符串处理，像 Matlab 一样强大的线性代数，像 shell 一样擅长将程序粘合在一起的语言。它简单易学，却能让严苛的黑客为之倾心。我们希望它是交互式的，具备可编译性。
+2. 官方网站
+    1. [中文网站](https://cn.julialang.org/)
+        1. ![](https://ws2.sinaimg.cn/large/006tKfTcgy1g0bsw12xctj31mm0u0ds0.jpg)
+    2. [英文网站](https://julialang.org/)
+        1. ![](https://ws3.sinaimg.cn/large/006tKfTcgy1g0bsylt02vj31kt0u0q5o.jpg)
+    3. [Github](https://github.com/JuliaLang/julia)
+3. windows、macos、linux版本下载地址
+    1. [Downloads](https://julialang.org/downloads/)
+        1. ![](https://ws3.sinaimg.cn/large/006tKfTcgy1g0bt5fol0xj31s00lodh0.jpg)
+    2. [Docker images](https://hub.docker.com/_/julia)
+        1. ![](https://ws1.sinaimg.cn/large/006tKfTcgy1g0bt4kjlrvj31ws0oqaat.jpg)
+4. IDE开发环境搭建
+    1. 推荐方法：简单快捷的
+        1. 拉取julia的镜像，建立Julia开发环境的镜像
+        2. 步骤：
+        ```
+        docker pull julia
+        sudo docker run -it -d julia:latest julia
+        sudo docker start julia
+        sudo docker attach julia
+        ```
+        ![docker contain](https://ws1.sinaimg.cn/large/006tKfTcgy1g0btuis297j30wi0j2mxi.jpg)
+    2. 安装 （注意和其他的集成开发环境是一样的）
+        1. ![IDE](https://ws1.sinaimg.cn/large/006tKfTcgy1g0btyport5j30w60jy74q.jpg)
+5. 官方教程地址
+    1.https://julialang.org/learning/
